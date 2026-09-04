@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CineLink BD — Admin Panel</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@400;500;600;700;800&family=Noto+Sans+Bengali:wght@400;600&display=swap" rel="stylesheet">
+<style>
+  :root{--bg:#0a0c11;--bg2:#10131b;--card:#141826;--ink:#eef0f6;--muted:#9aa3b5;--dim:#6b7384;--accent:#ff3b2f;--gold:#ffb020;--line:rgba(255,255,255,.08);--ok:#23c46a;--disp:'Bebas Neue',sans-serif;--body:'Inter',sans-serif;--bangla:'Noto Sans Bengali','Inter',sans-serif}
+  *{margin:0;padding:0;box-sizing:border-box}
+  body{background:var(--bg);color:var(--ink);font-family:var(--body);font-size:14px;min-height:100vh}
+  :focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+  .bn{font-family:var(--bangla)}
+  .adm-head{display:flex;align-items:center;gap:14px;padding:14px 24px;border-bottom:1px solid var(--line);position:sticky;top:0;background:rgba(10,12,17,.9);backdrop-filter:blur(10px);z-index:40;flex-wrap:wrap}
+  .adm-head .word{font-family:var(--disp);font-size:24px;letter-spacing:1px}
+  .adm-head .word em{font-style:normal;color:var(--accent)}
+  .adm-head .role{font-size:11px;color:var(--gold);background:rgba(255,176,32,.12);border:1px solid rgba(255,176,32,.35);padding:3px 9px;border-radius:99px;font-weight:700}
+  .adm-head .st{margin-left:auto;font-size:12px;color:var(--muted)}
+  .btn{font-family:inherit;font-weight:700;font-size:13px;padding:10px 18px;border-radius:9px;border:1px solid var(--line);background:var(--card);color:var(--ink);cursor:pointer;transition:.16s}
+  .btn:hover{border-color:rgba(255,255,255,.3)}
+  .btn.pri{background:var(--accent);border-color:var(--accent);color:#fff}
+  .btn.pri:hover{background:#ff5347}
+  .btn.gol{background:rgba(255,176,32,.14);border-color:rgba(255,176,32,.4);color:var(--gold)}
+  .btn.danger{background:rgba(255,59,47,.12);border-color:rgba(255,59,47,.4);color:#ff837b}
+
+  main{max-width:1080px;margin:0 auto;padding:34px 20px}
+  .card{background:var(--bg2);border:1px solid var(--line);border-radius:14px;padding:26px;max-width:420px;margin:8vh auto 0}
+  .card h2{font-family:var(--disp);font-size:30px;letter-spacing:1.5px;margin-bottom:6px}
+  .card .sub{color:var(--muted);font-size:12.5px;margin-bottom:20px}
+  .fld{display:flex;flex-direction:column;gap:7px;margin-bottom:14px}
+  .fld label{font-size:12.5px;font-weight:700;color:var(--muted)}
+  .fld input,.fld select,.fld textarea{background:#0d1017;border:1px solid var(--line);border-radius:9px;color:var(--ink);padding:10px 12px;font-size:13.5px;font-family:inherit}
+  .fld input:focus,.fld select:focus,.fld textarea:focus{outline:none;border-color:var(--accent)}
+  .err{color:#ff837b;font-size:12.5px;margin-bottom:12px;min-height:16px}
+  .hint{font-size:11.5px;color:var(--dim);margin-top:14px;line-height:1.6}
+
+  .toolbar{display:flex;gap:10px;align-items:center;flex-wrap:wrap;margin-bottom:20px}
+  .toolbar .search{margin-left:auto;background:#0d1017;border:1px solid var(--line);border-radius:99px;padding:8px 14px;min-width:220px}
+  .toolbar .search input{background:none;border:0;outline:0;color:var(--ink);font-family:inherit;width:100%}
+  .stats{font-size:12px;color:var(--muted)}
+
+  .row{display:grid;grid-template-columns:48px 1fr auto auto;gap:14px;align-items:center;background:var(--bg2);border:1px solid var(--line);border-radius:12px;padding:10px 14px;margin-bottom:10px}
+  .row .th{width:48px;height:66px;border-radius:7px;overflow:hidden;background:var(--card);position:relative;display:grid;place-items:center;font-family:var(--disp);font-size:20px;color:#39415a}
+  .row .th img{width:100%;height:100%;object-fit:cover}
+  .row .tt h3{font-size:14.5px;font-weight:700}
+  .row .tt .meta{font-size:11.5px;color:var(--muted);margin-top:3px;display:flex;flex-wrap:wrap;gap:4px 10px}
+  .row .pin-tag{color:var(--gold);font-weight:800;font-size:10px;letter-spacing:1px}
+  .row .acts{display:flex;gap:8px}
+
+  .modal{position:fixed;inset:0;z-index:90;display:none;align-items:flex-start;justify-content:center;padding:24px;overflow-y:auto}
+  .modal.open{display:flex}
+  .modal-bg{position:fixed;inset:0;background:rgba(4,5,9,.8);backdrop-filter:blur(4px)}
+  .mpanel{position:relative;width:min(760px,100%);background:var(--bg2);border:1px solid var(--line);border-radius:16px;padding:24px;margin-top:3vh}
+  .mpanel h3{font-family:var(--disp);font-size:26px;letter-spacing:1.5px;margin-bottom:4px}
+  .mpanel .sub{font-size:12px;color:var(--dim);margin-bottom:18px}
+  .form-grid{display:grid;grid-template-columns:1fr 1fr;gap:0 16px}
+  .full{grid-column:1/-1}
+  .chks{display:flex;gap:12px;flex-wrap:wrap;align-items:center;padding:4px 0}
+  .chks label{display:flex;gap:6px;align-items:center;font-weight:500!important;color:var(--ink)!important;font-size:13px!important}
+  .filehint{font-size:11px;color:var(--dim);margin-top:4px}
+  .pbar{height:8px;background:#0d1017;border-radius:99px;overflow:hidden;margin:14px 0 0}
+  .pbar i{display:block;height:100%;width:0;background:var(--accent);transition:width .2s}
+  .ptxt{font-size:11.5px;color:var(--muted);margin-top:6px;min-height:15px}
+  .macts{display:flex;gap:10px;margin-top:18px;flex-wrap:wrap}
+  .macts .sp{margin-left:auto}
+  @media (max-width:640px){.form-grid{grid-template-columns:1fr}.row{grid-template-columns:44px 1fr}.row .acts{grid-column:1/-1;justify-content:flex-end}}
+</style>
+</head>
+<body>
+<header class="adm-head">
+  <span class="word">CINE<em>LINK</em> BD</span><span class="role">ADMIN</span>
+  <a href="/" class="btn" style="padding:7px 14px">← সাইট</a>
+  <span class="st" id="statLine"></span>
+  <button class="btn danger" id="btnLogout" style="padding:7px 14px" hidden>লগআউট</button>
+</header>
+
+<main>
+  <!-- login -->
+  <div class="card" id="loginView">
+    <h2>ADMIN LOGIN</h2>
+    <p class="sub bn">মুভি যোগ / আপলোড করতে লগইন করুন</p>
+    <div class="fld"><label>ইউজারনেম</label><input id="u" autocomplete="username"></div>
+    <div class="fld"><label>পাসওয়ার্ড</label><input id="p" type="password" autocomplete="current-password"></div>
+    <div class="err" id="lErr"></div>
+    <button class="btn pri" id="btnLogin" style="width:100%">লগইন</button>
+    <p class="hint bn">ডিফল্ট লগইন: <b>admin / admin123</b><br>প্রথমবারের পর পাসওয়ার্ড বদলে নিন:<br><code>node server.js --set-password <নতুন-পাসওয়ার্ড></code></p>
+  </div>
+
+  <!-- dashboard -->
+  <div id="dashView" hidden>
+    <div class="toolbar">
+      <button class="btn pri" id="btnNew">+ নতুন মুভি যোগ</button>
+      <button class="btn gol" id="btnRefresh">↻ রিফ্রেশ</button>
+      <div class="search"><input id="q" placeholder="লিস্টে খুঁজুন…"></div>
+    </div>
+    <div class="stats" id="stats"></div>
+    <div id="rows" style="margin-top:14px"></div>
+  </div>
+</main>
+
+<!-- movie form -->
+<div class="modal" id="form">
+  <div class="modal-bg" data-clos="1"></div>
+  <div class="mpanel">
+    <h3 id="fHead">নতুন মুভি</h3>
+    <p class="sub bn" id="fSub">সব ফিল্ড পূরণ করে সেভ করুন</p>
+    <form id="movieForm">
+      <div class="form-grid">
+        <div class="fld full"><label>শিরোনাম *</label><input id="f_t" required placeholder="যেমন: Shonar Hati"></div>
+        <div class="fld"><label>বছর</label><input id="f_y" type="number" placeholder="2026"></div>
+        <div class="fld"><label>ধরন</label><select id="f_type"><option value="Movie">Movie</option><option value="Series">Series</option></select></div>
+        <div class="fld"><label>কোয়ালিটি</label><select id="f_q">
+          <option>WEB-DL</option><option>HDRip</option><option>HDTC</option><option>BluRay</option><option>WebRip</option>
+        </select></div>
+        <div class="fld"><label>অডিও / ভাষা ট্যাগ</label><input id="f_a" placeholder="Dual [Bangla–Hindi]"></div>
+        <div class="fld"><label>ভিউ সংখ্যা (শুরুর হিসাব)</label><input id="f_v" type="number" min="0" placeholder="0"></div>
+        <div class="fld"><label>রেটিং ★</label><input id="f_r" type="number" step="0.1" min="0" max="10" placeholder="7.5"></div>
+        <div class="fld full"><label>জেনার</label><input id="f_g" placeholder="Action, Thriller…"></div>
+        <div class="fld full"><label>ভাষা (ফিল্টারে দেখাবে)</label>
+          <div class="chks">
+            <label><input type="checkbox" class="lang" value="Bangla"> Bangla</label>
+            <label><input type="checkbox" class="lang" value="Hindi"> Hindi</label>
+            <label><input type="checkbox" class="lang" value="Tamil"> Tamil</label>
+            <label><input type="checkbox" class="lang" value="Malayalam"> Malayalam</label>
+            <label><input type="checkbox" class="lang" value="English"> English</label>
+            <label><input type="checkbox" id="f_pin"> PINNED শেলফে রাখুন</label>
+          </div>
+        </div>
+        <div class="fld full"><label>পোস্টার ছবি (ফাইল আপলোড)</label>
+          <input id="f_pfile" type="file" accept="image/*">
+          <div class="filehint bn">ফাইল না দিলে নিচের URL ব্যবহার হবে</div>
+        </div>
+        <div class="fld full"><label>…অথবা পোস্টার ছবির URL</label><input id="f_purl" placeholder="https://…  বা  /uploads/posters/…"></div>
+        <div class="fld full"><label>ভিডিও ফাইল (আপলোড) — mp4, webm</label>
+          <input id="f_vfile" type="file" accept="video/*">
+          <div class="filehint bn">বড় হলে কয়েক মিনিট লাগতে পারে। না দিলে নিচের URL ব্যবহৃত হবে।</div>
+        </div>
+        <div class="fld full"><label>…অথবা ভিডিও URL (.mp4 লিংক বা YouTube লিংক)</label><input id="f_src" placeholder="https://…/movie.mp4  বা  https://youtu.be/…"></div>
+        <div class="fld full"><label>Download লিংক (ঐচ্ছিক)</label><input id="f_dl" placeholder="https://…"></div>
+        <div class="fld full"><label>বর্ণনা</label><textarea id="f_d" rows="2"></textarea></div>
+      </div>
+      <div class="pbar"><i id="prog"></i></div>
+      <div class="ptxt" id="progTxt"></div>
+      <div class="macts">
+        <button type="submit" class="btn pri" id="btnSave">সেভ করুন</button>
+        <button type="button" class="btn" data-clos="1" id="btnCancel">বাতিল</button>
+        <button type="button" class="btn danger" id="btnDel" hidden>🗑 মুছে ফেলুন</button>
+      </div>
+    </form>
+  </div>
+</div>
+
+<script>
+var MOVIES = [], editId = null;
+
+function $(id){ return document.getElementById(id); }
+
+function showDash(){ $('loginView').style.display = 'none'; $('dashView').hidden = false; $('btnLogout').hidden = false; load(); }
+function showLogin(){ $('loginView').style.display = ''; $('dashView').hidden = true; $('btnLogout').hidden = true; }
+
+function load(){
+  fetch('/api/admin/stats').then(function(r){ return r.json(); }).then(function(s){
+    $('statLine').textContent = 'মুভি: ' + s.movies + ' · মোট ভিউ: ' + fmt(s.totalViews);
+  }).catch(function(){});
+  fetch('/api/admin/movies').then(function(r){ return r.json(); }).then(function(list){
+    MOVIES = list;
+    renderRows();
+  }).catch(function(e){ $('rows').innerHTML = '<p class="stats">লোড করা যায়নি: ' + e + '</p>'; });
+}
+
+function fmt(n){ n=n||0; if(n>=1e6)return (n/1e6).toFixed(2)+'M'; if(n>=1e3)return (n/1e3).toFixed(2)+'K'; return String(n); }
+function esc(s){return String(s==null?'':s).replace(/[&<>"']/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c];});}
+
+function renderRows(){
+  var q = ($('q').value || '').trim().toLowerCase();
+  var list = MOVIES.filter(function(m){ return !q || (m.t + ' ' + m.g).toLowerCase().indexOf(q) > -1; });
+  $('stats').textContent = 'মোট ' + MOVIES.length + ' টি টাইটেল · দেখানো হচ্ছে ' + list.length + ' টি';
+  if (!list.length){ $('rows').innerHTML = '<p class="stats bn">কোনো মুভি নেই — "নতুন মুভি যোগ" বাটনে চাপুন।</p>'; return; }
+  $('rows').innerHTML = list.map(function(m){
+    return '<div class="row">' +
+      '<div class="th"><img src="' + esc(m.p||'') + '" onerror="this.remove()"><span>' + esc((m.t||'?').charAt(0).toUpperCase()) + '</span></div>' +
+      '<div class="tt"><h3>' + esc(m.t) + (m.pin ? ' <span class="pin-tag">📌 PINNED</span>' : '') + '</h3>' +
+        '<div class="meta"><span>' + (m.y||'') + '</span><span>' + (m.type||'') + '</span><span>' + esc(m.q||'') + '</span>' +
+        '<span>👁 ' + fmt(m.v) + '</span>' + (m.r ? '<span>★ ' + m.r.toFixed(1) + '</span>' : '') + '</div></div>' +
+      '<div class="acts"><button class="btn" data-edit="' + m.id + '">✏️ এডিট</button>' +
+      '<button class="btn danger" data-del="' + m.id + '">🗑</button></div></div>';
+  }).join('');
+}
+
+function openForm(m){
+  editId = m ? m.id : null;
+  $('fHead').textContent = m ? 'মুভি এডিট' : 'নতুন মুভি';
+  $('fSub').textContent = m ? 'ID: ' + m.id : 'সব ফিল্ড পূরণ করে সেভ করুন';
+  $('f_t').value = m ? (m.t||'') : '';
+  $('f_y').value = m ? (m.y||'') : '';
+  $('f_type').value = m ? (m.type||'Movie') : 'Movie';
+  $('f_q').value = m ? (m.q||'WEB-DL') : 'WEB-DL';
+  $('f_a').value = m ? (m.a||'') : '';
+  $('f_v').value = m ? (m.v||0) : 0;
+  $('f_r').value = m ? (m.r!=null?m.r:'') : '';
+  $('f_g').value = m ? (m.g||'') : '';
+  $('f_purl').value = (m && m.p && m.p.indexOf('/uploads/')===0) ? m.p : (m ? (m.p||'') : '');
+  $('f_src').value = (m && m.src && m.src.indexOf('/uploads/')===0) ? '' : (m ? (m.src||'') : '');
+  $('f_dl').value = m ? (m.dl||'') : '';
+  $('f_d').value = m ? (m.d||'') : '';
+  $('f_pin').checked = !!(m && m.pin);
+  $('f_pfile').value = ''; $('f_vfile').value = '';
+  var ls = m ? (m.lang||[]) : [];
+  document.querySelectorAll('.lang').forEach(function(c){ c.checked = ls.indexOf(c.value) > -1; });
+  $('btnDel').hidden = !m;
+  $('prog').style.width = '0'; $('progTxt').textContent = '';
+  $('form').classList.add('open');
+}
+
+function closeForm(){ $('form').classList.remove('open'); }
+
+function saveForm(ev){
+  ev.preventDefault();
+  var fd = new FormData();
+  fd.append('t', $('f_t').value.trim());
+  fd.append('y', $('f_y').value || '');
+  fd.append('type', $('f_type').value);
+  fd.append('q', $('f_q').value);
+  fd.append('a', $('f_a').value.trim());
+  fd.append('v', $('f_v').value || 0);
+  fd.append('r', $('f_r').value || '');
+  fd.append('g', $('f_g').value.trim());
+  var langs = []; document.querySelectorAll('.lang:checked').forEach(function(c){ langs.push(c.value); });
+  fd.append('lang', langs.join(','));
+  fd.append('pin', $('f_pin').checked ? 'on' : '');
+  fd.append('d', $('f_d').value.trim());
+  fd.append('dl', $('f_dl').value.trim());
+  fd.append('posterUrl', $('f_purl').value.trim());
+  fd.append('srcUrl', $('f_src').value.trim());
+  var pf = $('f_pfile').files[0]; if (pf) fd.append('poster', pf);
+  var vf = $('f_vfile').files[0]; if (vf) fd.append('video', vf);
+  if (!fd.get('t')) { $('progTxt').textContent = 'শিরোনাম দিন!'; return; }
+  var url = editId ? ('/api/admin/movies/' + editId) : '/api/admin/movies';
+  var x = new XMLHttpRequest();
+  x.open(editId ? 'PUT' : 'POST', url);
+  x.upload.onprogress = function(e){ if (e.lengthComputable){ var pc = Math.round(e.loaded/e.total*100); $('prog').style.width = pc + '%'; $('progTxt').textContent = 'আপলোড হচ্ছে… ' + pc + '%'; } };
+  x.onload = function(){
+    if (x.status >= 200 && x.status < 300){ closeForm(); load(); }
+    else {
+      var msg = 'সেভ হয়নি (HTTP ' + x.status + ')';
+      try { var j = JSON.parse(x.responseText); if (j.error === 'file_too_large') msg = 'ফাইল খুব বড়! MAX_VIDEO_MB সেটিং বাড়ান।'; else if (j.error === 'not_logged_in') msg = 'সেশন শেষ — আবার লগইন করুন।'; } catch(e){}
+      $('progTxt').textContent = msg;
+    }
+  };
+  x.onerror = function(){ $('progTxt').textContent = 'নেটওয়ার্ক সমস্যা — সার্ভার চলছে কি?'; };
+  x.send(fd);
+}
+
+function delMovie(id){
+  var m = MOVIES.filter(function(x){ return x.id === id; })[0];
+  if (!m) return;
+  if (!confirm('"' + m.t + '" মুছবেন? পোস্টার/ভিডিও ফাইলও মুছে যাবে।')) return;
+  var x = new XMLHttpRequest();
+  x.open('DELETE', '/api/admin/movies/' + id);
+  x.onload = function(){ if (x.status < 300) load(); else $('progTxt').textContent = 'মোছা যায়নি (HTTP ' + x.status + ')'; };
+  x.send();
+}
+
+/* events */
+$('btnLogin').onclick = function(){
+  $('lErr').textContent = '';
+  fetch('/api/auth/login', { method:'POST', headers:{'Content-Type':'application/json'},
+    body: JSON.stringify({ u: $('u').value.trim(), p: $('p').value }) })
+  .then(function(r){ if (r.status === 401) throw new Error('bad'); return r.json(); })
+  .then(function(){ showDash(); })
+  .catch(function(){ $('lErr').textContent = 'ভুল ইউজারনেম বা পাসওয়ার্ড।'; });
+};
+$('p').addEventListener('keydown', function(e){ if (e.key === 'Enter') $('btnLogin').click(); });
+$('btnLogout').onclick = function(){
+  fetch('/api/auth/logout', { method:'POST' }).then(function(){ showLogin(); $('u').value=''; $('p').value=''; });
+};
+$('btnNew').onclick = function(){ openForm(null); };
+$('btnRefresh').onclick = load;
+$('q').addEventListener('input', renderRows);
+$('movieForm').addEventListener('submit', saveForm);
+$('btnCancel').onclick = closeForm;
+$('btnDel').onclick = function(){ if (editId) delMovie(editId); };
+document.querySelectorAll('[data-clos]').forEach(function(el){ el.addEventListener('click', closeForm); });
+document.addEventListener('click', function(e){
+  var ed = e.target.closest('[data-edit]');
+  if (ed){ var mm = MOVIES.filter(function(x){ return x.id === ed.getAttribute('data-edit'); })[0]; if (mm) openForm(mm); return; }
+  var dl = e.target.closest('[data-del]');
+  if (dl){ delMovie(dl.getAttribute('data-del')); }
+});
+
+/* boot */
+fetch('/api/auth/me').then(function(r){ return r.json(); }).then(function(d){ if (d.admin) showDash(); else showLogin(); });
+</script>
+</body>
+</html>

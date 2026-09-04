@@ -1,0 +1,28 @@
+{
+  "name": "cinelink-bd-server",
+  "version": "1.0.0",
+  "private": true,
+  "description": "CineLink BD — streaming portal with admin panel, video upload and login (demo project)",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "set-password": "node server.js --set-password"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "express": "^4.19.2",
+    "express-session": "^1.18.0",
+    "multer": "^1.4.5-lts.1"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "movie",
+    "streaming",
+    "bangla",
+    "hindi",
+    "cinelink",
+    "ott"
+  ]
+}
