@@ -1,0 +1,1802 @@
+[
+ {
+  "id": "pd-night-of-the-living-dead",
+  "t": "Night of the Living Dead",
+  "y": 1968,
+  "type": "Movie",
+  "q": "WebRip",
+  "a": "English",
+  "v": 0,
+  "g": "Horror",
+  "lang": [
+   "English"
+  ],
+  "pin": true,
+  "p": "/uploads/posters/pd-night-of-the-living-dead.jpg",
+  "src": "",
+  "d": "Romero's landmark zombie classic: strangers trapped in a farmhouse as the dead rise.",
+  "createdAt": 1760000000000
+ },
+ {
+  "id": "pd-nosferatu",
+  "t": "Nosferatu",
+  "y": 1922,
+  "type": "Movie",
+  "q": "WebRip",
+  "a": "Silent",
+  "v": 0,
+  "g": "Horror",
+  "lang": [
+   "English"
+  ],
+  "pin": false,
+  "p": "/uploads/posters/pd-nosferatu.jpg",
+  "src": "",
+  "d": "Murnau's silent expressionist horror — the vampire Count Orlok.",
+  "createdAt": 1759999700000
+ },
+ {
+  "id": "pd-the-cabinet-of-dr-caligari",
+  "t": "The Cabinet of Dr. Caligari",
+  "y": 1920,
+  "type": "Movie",
+  "q": "WebRip",
+  "a": "Silent",
+  "v": 0,
+  "g": "Horror",
+  "lang": [
+   "English"
+  ],
+  "pin": false,
+  "p": "/uploads/posters/pd-the-cabinet-of-dr-caligari.jpg",
+  "src": "",
+  "d": "Expressionist nightmare about a carnival hypnotist and a somnambulist.",
+  "createdAt": 1759999400000
+ },
+ {
+  "id": "pd-metropolis",
+  "t": "Metropolis",
+  "y": 1927,
+  "type": "Movie",
+  "q": "WebRip",
+  "a": "Silent",
+  "v": 0,
+  "g": "Sci-Fi Drama",
+  "lang": [
+   "English"
+  ],
+  "pin": true,
+  "p": "/uploads/posters/pd-metropolis.jpg",
+  "src": "",
+  "d": "Fritz Lang's dystopian epic of a divided city and its prophecy of the heart.",
+  "createdAt": 1759999100000
+ },
+ {
+  "id": "pd-the-general",
+  "t": "The General",
+  "y": 1926,
+  "type": "Movie",
+  "q": "WebRip",
+  "a": "Silent",
+  "v": 0,
+  "g": "Action Comedy",
+  "lang": [
+   "English"
+  ],
+  "pin": false,
+  "p": "/uploads/posters/pd-the-general.png",
+  "src": "",
+  "d": "Buster Keaton's Civil War train chase masterpiece, largely one take.",
+  "createdAt": 1759998800000
+ },
+ {
+  "id": "pd-sherlock-jr",
+  "t": "Sherlock Jr.",
+  "y": 1924,
+  "type": "Movie",
+  "q": "WebRip",
+  "a": "Silent",
+  "v": 0,
+  "g": "Comedy",
+  "lang": [
+   "English"
+  ],
+  "pin": false,
+  "p": "/uploads/posters/pd-sherlock-jr.jpg",
+  "src": "",
+  "d": "Keaton's projectionist dreams himself into a movie.",
+  "createdAt": 1759998500000
+ },
+ {
+  "id": "pd-steamboat-willie",
+  "t": "Steamboat Willie",
+  "y": 1928,
+  "type": "Movie",
+  "q": "WebRip",
+  "a": "Silent",
+  "v": 0,
+  "g": "Animation",
+  "lang": [
+   "English"
+  ],
+  "pin": false,
+  "p": "/uploads/posters/pd-steamboat-willie.png",
+  "src": "",
+  "d": "Mickey Mouse's debut cartoon — the birth of synchronized sound animation.",
+  "createdAt": 1759998200000
+ },
+ {
+  "id": "pd-the-kid",
+  "t": "The Kid",
+  "y": 1921,
+  "type": "Movie",
+  "q": "WebRip",
+  "a": "Silent",
+  "v": 0,
+  "g": "Comedy Drama",
+  "lang": [
+   "English"
+  ],
+  "pin": false,
+  "p": "",
+  "src": "",
+  "d": "Chaplin's tramp raises an orphaned boy in the slums.",
+  "createdAt": 1759997900000
+ },
+ {
+  "id": "pd-the-gold-rush",
+  "t": "The Gold Rush",
+  "y": 1925,
+  "type": "Movie",
+  "q": "WebRip",
+  "a": "Silent",
+  "v": 0,
+  "g": "Comedy",
+  "lang": [
+   "English"
+  ],
+  "pin": false,
+  "p": "/uploads/posters/pd-the-gold-rush.jpg",
+  "src": "",
+  "d": "Chaplin in the Klondike — the dance of the dinner rolls.",
+  "createdAt": 1759997600000
+ },
+ {
+  "id": "pd-safety-last",
+  "t": "Safety Last!",
+  "y": 1923,
+  "type": "Movie",
+  "q": "WebRip",
+  "a": "Silent",
+  "v": 0,
+  "g": "Comedy",
+  "lang": [
+   "English"
+  ],
+  "pin": false,
+  "p": "",
+  "src": "",
+  "d": "Harold Lloyd hangs from a clock face high above the street.",
+  "createdAt": 1759997300000
+ },
+ {
+  "id": "pd-his-girl-friday",
+  "t": "His Girl Friday",
+  "y": 1940,
+  "type": "Movie",
+  "q": "WebRip",
+  "a": "English",
+  "v": 0,
+  "g": "Comedy",
+  "lang": [
+   "English"
+  ],
+  "pin": false,
+  "p": "",
+  "src": "",
+  "d": "Cary Grant and Rosalind Russell in the fastest talking screwball of all time.",
+  "createdAt": 1759997000000
+ },
+ {
+  "id": "pd-my-man-godfrey",
+  "t": "My Man Godfrey",
+  "y": 1936,
+  "type": "Movie",
+  "q": "WebRip",
+  "a": "English",
+  "v": 0,
+  "g": "Comedy",
+  "lang": [
+   "English"
+  ],
+  "pin": false,
+  "p": "",
+  "src": "",
+  "d": "A forgotten man becomes a butler to a zany society family.",
+  "createdAt": 1759996700000
+ },
+ {
+  "id": "pd-scarlet-street",
+  "t": "Scarlet Street",
+  "y": 1945,
+  "type": "Movie",
+  "q": "WebRip",
+  "a": "English",
+  "v": 0,
+  "g": "Film Noir",
+  "lang": [
+   "English"
+  ],
+  "pin": false,
+  "p": "",
+  "src": "",
+  "d": "Fritz Lang's noir of an aging clerk, a schemer and murder.",
+  "createdAt": 1759996400000
+ },
+ {
+  "id": "pd-detour",
+  "t": "Detour",
+  "y": 1945,
+  "type": "Movie",
+  "q": "WebRip",
+  "a": "English",
+  "v": 0,
+  "g": "Film Noir",
+  "lang": [
+   "English"
+  ],
+  "pin": false,
+  "p": "",
+  "src": "",
+  "d": "A hitchhiker's fate spirals down the darkest B-noir.",
+  "createdAt": 1759996100000
+ },
+ {
+  "id": "pd-the-phantom-of-the-opera",
+  "t": "The Phantom of the Opera",
+  "y": 1925,
+  "type": "Movie",
+  "q": "WebRip",
+  "a": "Silent",
+  "v": 0,
+  "g": "Horror",
+  "lang": [
+   "English"
+  ],
+  "pin": false,
+  "p": "",
+  "src": "",
+  "d": "Lon Chaney's masked phantom haunts the Paris opera house.",
+  "createdAt": 1759995800000
+ },
+ {
+  "id": "pd-charade",
+  "t": "Charade",
+  "y": 1963,
+  "type": "Movie",
+  "q": "WebRip",
+  "a": "English",
+  "v": 0,
+  "g": "Thriller Comedy",
+  "lang": [
+   "English"
+  ],
+  "pin": false,
+  "p": "",
+  "src": "",
+  "d": "Audrey Hepburn & Cary Grant in a Parisian game of stolen fortune.",
+  "createdAt": 1759995500000
+ },
+ {
+  "id": "pd-the-cat-and-the-canary",
+  "t": "The Cat and the Canary",
+  "y": 1927,
+  "type": "Movie",
+  "q": "WebRip",
+  "a": "Silent",
+  "v": 0,
+  "g": "Mystery",
+  "lang": [
+   "English"
+  ],
+  "pin": false,
+  "p": "",
+  "src": "",
+  "d": "An old mansion, a cursed will and a clicking claw.",
+  "createdAt": 1759995200000
+ },
+ {
+  "id": "pd-carnival-of-souls",
+  "t": "Carnival of Souls",
+  "y": 1962,
+  "type": "Movie",
+  "q": "WebRip",
+  "a": "English",
+  "v": 0,
+  "g": "Horror",
+  "lang": [
+   "English"
+  ],
+  "pin": false,
+  "p": "",
+  "src": "",
+  "d": "An organist escapes a car crash and drifts through an empty world.",
+  "createdAt": 1759994900000
+ },
+ {
+  "id": "pd-house-on-haunted-hill",
+  "t": "House on Haunted Hill",
+  "y": 1959,
+  "type": "Movie",
+  "q": "WebRip",
+  "a": "English",
+  "v": 0,
+  "g": "Horror",
+  "lang": [
+   "English"
+  ],
+  "pin": false,
+  "p": "",
+  "src": "",
+  "d": "Vincent Price offers a fortune to anyone who survives the night.",
+  "createdAt": 1759994600000
+ },
+ {
+  "id": "pd-the-last-man-on-earth",
+  "t": "The Last Man on Earth",
+  "y": 1964,
+  "type": "Movie",
+  "q": "WebRip",
+  "a": "English",
+  "v": 0,
+  "g": "Horror Sci-Fi",
+  "lang": [
+   "English"
+  ],
+  "pin": false,
+  "p": "/uploads/posters/pd-the-last-man-on-earth.jpg",
+  "src": "",
+  "d": "The last survivor of a plague hunts the infected by day.",
+  "createdAt": 1759994300000
+ },
+ {
+  "id": "pd-plan-9-from-outer-space",
+  "t": "Plan 9 from Outer Space",
+  "y": 1959,
+  "type": "Movie",
+  "q": "WebRip",
+  "a": "English",
+  "v": 0,
+  "g": "Sci-Fi",
+  "lang": [
+   "English"
+  ],
+  "pin": false,
+  "p": "/uploads/posters/pd-plan-9-from-outer-space.jpg",
+  "src": "",
+  "d": "Ed Wood's legendary so-bad-it's-great alien resurrection tale.",
+  "createdAt": 1759994000000
+ },
+ {
+  "id": "pd-reefer-madness",
+  "t": "Reefer Madness",
+  "y": 1936,
+  "type": "Movie",
+  "q": "WebRip",
+  "a": "English",
+  "v": 0,
+  "g": "Drama",
+  "lang": [
+   "English"
+  ],
+  "pin": false,
+  "p": "/uploads/posters/pd-reefer-madness.jpg",
+  "src": "",
+  "d": "The infamous anti-marijuana scare film.",
+  "createdAt": 1759993700000
+ },
+ {
+  "id": "pd-dementia-13",
+  "t": "Dementia 13",
+  "y": 1963,
+  "type": "Movie",
+  "q": "WebRip",
+  "a": "English",
+  "v": 0,
+  "g": "Horror",
+  "lang": [
+   "English"
+  ],
+  "pin": false,
+  "p": "",
+  "src": "",
+  "d": "Francis Ford Coppola's debut: a castle, an axe and dark family secrets.",
+  "createdAt": 1759993400000
+ },
+ {
+  "id": "pd-the-terror",
+  "t": "The Terror",
+  "y": 1963,
+  "type": "Movie",
+  "q": "WebRip",
+  "a": "English",
+  "v": 0,
+  "g": "Horror",
+  "lang": [
+   "English"
+  ],
+  "pin": false,
+  "p": "/uploads/posters/pd-the-terror.png",
+  "src": "",
+  "d": "A lost soldier haunts Boris Karloff's dark castle.",
+  "createdAt": 1759993100000
+ },
+ {
+  "id": "pd-a-farewell-to-arms",
+  "t": "A Farewell to Arms",
+  "y": 1932,
+  "type": "Movie",
+  "q": "WebRip",
+  "a": "English",
+  "v": 0,
+  "g": "War Drama",
+  "lang": [
+   "English"
+  ],
+  "pin": false,
+  "p": "/uploads/posters/pd-a-farewell-to-arms.jpg",
+  "src": "",
+  "d": "Hemingway's ambulance driver and nurse under fire in WWI.",
+  "createdAt": 1759992800000
+ },
+ {
+  "id": "pd-beat-the-devil",
+  "t": "Beat the Devil",
+  "y": 1953,
+  "type": "Movie",
+  "q": "WebRip",
+  "a": "English",
+  "v": 0,
+  "g": "Comedy",
+  "lang": [
+   "English"
+  ],
+  "pin": false,
+  "p": "",
+  "src": "",
+  "d": "John Huston's spoof of treasure hunts in Africa.",
+  "createdAt": 1759992500000
+ },
+ {
+  "id": "pd-the-stranger",
+  "t": "The Stranger",
+  "y": 1946,
+  "type": "Movie",
+  "q": "WebRip",
+  "a": "English",
+  "v": 0,
+  "g": "Film Noir",
+  "lang": [
+   "English"
+  ],
+  "pin": false,
+  "p": "",
+  "src": "",
+  "d": "Orson Welles as a Nazi hiding in a small American town.",
+  "createdAt": 1759992200000
+ },
+ {
+  "id": "pd-d-o-a",
+  "t": "D.O.A.",
+  "y": 1950,
+  "type": "Movie",
+  "q": "WebRip",
+  "a": "English",
+  "v": 0,
+  "g": "Film Noir",
+  "lang": [
+   "English"
+  ],
+  "pin": false,
+  "p": "/uploads/posters/pd-d-o-a.jpg",
+  "src": "",
+  "d": "A man poisoned with an untraceable toxin has 24 hours to find his killer.",
+  "createdAt": 1759991900000
+ },
+ {
+  "id": "pd-kansas-city-confidential",
+  "t": "Kansas City Confidential",
+  "y": 1952,
+  "type": "Movie",
+  "q": "WebRip",
+  "a": "English",
+  "v": 0,
+  "g": "Crime",
+  "lang": [
+   "English"
+  ],
+  "pin": false,
+  "p": "",
+  "src": "",
+  "d": "An ex-con infiltrates the crew that framed him.",
+  "createdAt": 1759991600000
+ },
+ {
+  "id": "pd-the-hitch-hiker",
+  "t": "The Hitch-Hiker",
+  "y": 1953,
+  "type": "Movie",
+  "q": "WebRip",
+  "a": "English",
+  "v": 0,
+  "g": "Film Noir",
+  "lang": [
+   "English"
+  ],
+  "pin": false,
+  "p": "/uploads/posters/pd-the-hitch-hiker.jpeg",
+  "src": "",
+  "d": "Ida Lupino's taut road thriller with a killer at the wheel.",
+  "createdAt": 1759991300000
+ },
+ {
+  "id": "pd-suddenly",
+  "t": "Suddenly",
+  "y": 1954,
+  "type": "Movie",
+  "q": "WebRip",
+  "a": "English",
+  "v": 0,
+  "g": "Crime Thriller",
+  "lang": [
+   "English"
+  ],
+  "pin": false,
+  "p": "",
+  "src": "",
+  "d": "Sinatra plots a president's murder in a small-town home.",
+  "createdAt": 1759991000000
+ },
+ {
+  "id": "pd-the-lady-vanishes",
+  "t": "The Lady Vanishes",
+  "y": 1938,
+  "type": "Movie",
+  "q": "WebRip",
+  "a": "English",
+  "v": 0,
+  "g": "Mystery Thriller",
+  "lang": [
+   "English"
+  ],
+  "pin": false,
+  "p": "",
+  "src": "",
+  "d": "Hitchcock's train-bound missing-tourist mystery.",
+  "createdAt": 1759990700000
+ },
+ {
+  "id": "pd-and-then-there-were-none",
+  "t": "And Then There Were None",
+  "y": 1945,
+  "type": "Movie",
+  "q": "WebRip",
+  "a": "English",
+  "v": 0,
+  "g": "Mystery",
+  "lang": [
+   "English"
+  ],
+  "pin": false,
+  "p": "",
+  "src": "",
+  "d": "Ten strangers on an island die one by one — Agatha Christie style.",
+  "createdAt": 1759990400000
+ },
+ {
+  "id": "pd-of-human-bondage",
+  "t": "Of Human Bondage",
+  "y": 1934,
+  "type": "Movie",
+  "q": "WebRip",
+  "a": "English",
+  "v": 0,
+  "g": "Drama",
+  "lang": [
+   "English"
+  ],
+  "pin": false,
+  "p": "",
+  "src": "",
+  "d": "Bette Davis as the cruel waitress in Maugham's tragedy of obsession.",
+  "createdAt": 1759990100000
+ },
+ {
+  "id": "pd-meet-john-doe",
+  "t": "Meet John Doe",
+  "y": 1941,
+  "type": "Movie",
+  "q": "WebRip",
+  "a": "English",
+  "v": 0,
+  "g": "Drama",
+  "lang": [
+   "English"
+  ],
+  "pin": false,
+  "p": "",
+  "src": "",
+  "d": "Frank Capra's fable of an ordinary man made into a movement.",
+  "createdAt": 1759989800000
+ },
+ {
+  "id": "pd-battleship-potemkin",
+  "t": "Battleship Potemkin",
+  "y": 1925,
+  "type": "Movie",
+  "q": "WebRip",
+  "a": "Silent",
+  "v": 0,
+  "g": "Drama",
+  "lang": [
+   "English"
+  ],
+  "pin": false,
+  "p": "",
+  "src": "",
+  "d": "Eisenstein's revolutionary classic — the Odessa Steps sequence.",
+  "createdAt": 1759989500000
+ },
+ {
+  "id": "pd-october-ten-days-that-shook-the-world",
+  "t": "October: Ten Days That Shook the World",
+  "y": 1928,
+  "type": "Movie",
+  "q": "WebRip",
+  "a": "Silent",
+  "v": 0,
+  "g": "Drama",
+  "lang": [
+   "English"
+  ],
+  "pin": false,
+  "p": "",
+  "src": "",
+  "d": "Eisenstein's montage epic of the 1917 Revolution.",
+  "createdAt": 1759989200000
+ },
+ {
+  "id": "pd-man-with-a-movie-camera",
+  "t": "Man with a Movie Camera",
+  "y": 1929,
+  "type": "Movie",
+  "q": "WebRip",
+  "a": "Silent",
+  "v": 0,
+  "g": "Documentary",
+  "lang": [
+   "English"
+  ],
+  "pin": false,
+  "p": "",
+  "src": "",
+  "d": "Vertov's dazzling city-symphony of a day in Soviet life.",
+  "createdAt": 1759988900000
+ },
+ {
+  "id": "pd-a-trip-to-the-moon",
+  "t": "A Trip to the Moon",
+  "y": 1902,
+  "type": "Movie",
+  "q": "WebRip",
+  "a": "Silent",
+  "v": 0,
+  "g": "Sci-Fi Short",
+  "lang": [
+   "English"
+  ],
+  "pin": false,
+  "p": "",
+  "src": "",
+  "d": "Melies' pioneering rocket-to-the-Moon fantasy short.",
+  "createdAt": 1759988600000
+ },
+ {
+  "id": "pd-the-great-train-robbery",
+  "t": "The Great Train Robbery",
+  "y": 1903,
+  "type": "Movie",
+  "q": "WebRip",
+  "a": "Silent",
+  "v": 0,
+  "g": "Western Short",
+  "lang": [
+   "English"
+  ],
+  "pin": false,
+  "p": "",
+  "src": "",
+  "d": "The film that made the Western — bandits and a train.",
+  "createdAt": 1759988300000
+ },
+ {
+  "id": "pd-wings",
+  "t": "Wings",
+  "y": 1927,
+  "type": "Movie",
+  "q": "WebRip",
+  "a": "Silent",
+  "v": 0,
+  "g": "War Drama",
+  "lang": [
+   "English"
+  ],
+  "pin": false,
+  "p": "",
+  "src": "",
+  "d": "The first Best Picture Oscar — WWI flyers and love.",
+  "createdAt": 1759988000000
+ },
+ {
+  "id": "pd-sunrise-a-song-of-two-humans",
+  "t": "Sunrise: A Song of Two Humans",
+  "y": 1927,
+  "type": "Movie",
+  "q": "WebRip",
+  "a": "Silent",
+  "v": 0,
+  "g": "Romance Drama",
+  "lang": [
+   "English"
+  ],
+  "pin": false,
+  "p": "",
+  "src": "",
+  "d": "Murnau's lyrical fable of a farmer torn between wife and city woman.",
+  "createdAt": 1759987700000
+ },
+ {
+  "id": "pd-the-passion-of-joan-of-arc",
+  "t": "The Passion of Joan of Arc",
+  "y": 1928,
+  "type": "Movie",
+  "q": "WebRip",
+  "a": "Silent",
+  "v": 0,
+  "g": "Drama",
+  "lang": [
+   "English"
+  ],
+  "pin": false,
+  "p": "",
+  "src": "",
+  "d": "Dreyer's towering close-up portrait of Joan's trial.",
+  "createdAt": 1759987400000
+ },
+ {
+  "id": "pd-faust",
+  "t": "Faust",
+  "y": 1926,
+  "type": "Movie",
+  "q": "WebRip",
+  "a": "Silent",
+  "v": 0,
+  "g": "Fantasy Drama",
+  "lang": [
+   "English"
+  ],
+  "pin": false,
+  "p": "",
+  "src": "",
+  "d": "Murnau's German expressionist retelling of the devil's wager.",
+  "createdAt": 1759987100000
+ },
+ {
+  "id": "pd-dr-mabuse-the-gambler",
+  "t": "Dr. Mabuse the Gambler",
+  "y": 1922,
+  "type": "Movie",
+  "q": "WebRip",
+  "a": "Silent",
+  "v": 0,
+  "g": "Crime",
+  "lang": [
+   "English"
+  ],
+  "pin": false,
+  "p": "",
+  "src": "",
+  "d": "Lang's master criminal casts a shadow over Weimar Berlin.",
+  "createdAt": 1759986800000
+ },
+ {
+  "id": "pd-all-quiet-on-the-western-front",
+  "t": "All Quiet on the Western Front",
+  "y": 1930,
+  "type": "Movie",
+  "q": "WebRip",
+  "a": "English",
+  "v": 0,
+  "g": "War Drama",
+  "lang": [
+   "English"
+  ],
+  "pin": false,
+  "p": "",
+  "src": "",
+  "d": "The harrowing WWI classic from the German side.",
+  "createdAt": 1759986500000
+ },
+ {
+  "id": "pd-bird-of-paradise",
+  "t": "Bird of Paradise",
+  "y": 1932,
+  "type": "Movie",
+  "q": "WebRip",
+  "a": "English",
+  "v": 0,
+  "g": "Drama",
+  "lang": [
+   "English"
+  ],
+  "pin": false,
+  "p": "",
+  "src": "",
+  "d": "A South Seas romance censored, lost and restored.",
+  "createdAt": 1759986200000
+ },
+ {
+  "id": "pd-the-amazing-mr-x",
+  "t": "The Amazing Mr. X",
+  "y": 1948,
+  "type": "Movie",
+  "q": "WebRip",
+  "a": "English",
+  "v": 0,
+  "g": "Film Noir",
+  "lang": [
+   "English"
+  ],
+  "pin": false,
+  "p": "",
+  "src": "",
+  "d": "A fake spiritualist meets real ghosts.",
+  "createdAt": 1759985900000
+ },
+ {
+  "id": "pd-the-strange-love-of-martha-ivers",
+  "t": "The Strange Love of Martha Ivers",
+  "y": 1946,
+  "type": "Movie",
+  "q": "WebRip",
+  "a": "English",
+  "v": 0,
+  "g": "Film Noir",
+  "lang": [
+   "English"
+  ],
+  "pin": false,
+  "p": "",
+  "src": "",
+  "d": "A childhood lie binds three lives in this noir drama.",
+  "createdAt": 1759985600000
+ },
+ {
+  "id": "pd-it-s-a-wonderful-life",
+  "t": "It's a Wonderful Life",
+  "y": 1946,
+  "type": "Movie",
+  "q": "WebRip",
+  "a": "English",
+  "v": 0,
+  "g": "Drama Fantasy",
+  "lang": [
+   "English"
+  ],
+  "pin": false,
+  "p": "",
+  "src": "",
+  "d": "Capra's Christmas miracle of George Bailey — rights status disputed, use at own risk.",
+  "createdAt": 1759985300000
+ },
+ {
+  "id": "pd-alam-ara",
+  "t": "Alam Ara",
+  "y": 1931,
+  "type": "Movie",
+  "q": "WebRip",
+  "a": "Hindi",
+  "v": 0,
+  "g": "Romance",
+  "lang": [
+   "Hindi"
+  ],
+  "pin": false,
+  "p": "",
+  "src": "",
+  "d": "The first Indian talkie — where sound came to Indian cinema.",
+  "createdAt": 1759985000000
+ },
+ {
+  "id": "pd-devdas",
+  "t": "Devdas",
+  "y": 1935,
+  "type": "Movie",
+  "q": "WebRip",
+  "a": "Hindi",
+  "v": 0,
+  "g": "Romance Drama",
+  "lang": [
+   "Hindi"
+  ],
+  "pin": false,
+  "p": "",
+  "src": "",
+  "d": "P.C. Barua's original screen telling of Sarat Chandra's doomed lover.",
+  "createdAt": 1759984700000
+ },
+ {
+  "id": "pd-achhut-kanya",
+  "t": "Achhut Kanya",
+  "y": 1936,
+  "type": "Movie",
+  "q": "WebRip",
+  "a": "Hindi",
+  "v": 0,
+  "g": "Social Drama",
+  "lang": [
+   "Hindi"
+  ],
+  "pin": false,
+  "p": "",
+  "src": "",
+  "d": "Bombay Talkies' love across the caste line.",
+  "createdAt": 1759984400000
+ },
+ {
+  "id": "pd-kismet",
+  "t": "Kismet",
+  "y": 1943,
+  "type": "Movie",
+  "q": "WebRip",
+  "a": "Hindi",
+  "v": 0,
+  "g": "Crime Drama",
+  "lang": [
+   "Hindi"
+  ],
+  "pin": false,
+  "p": "",
+  "src": "",
+  "d": "The first Hindi blockbuster about a thief and the war years.",
+  "createdAt": 1759984100000
+ },
+ {
+  "id": "pd-mahal",
+  "t": "Mahal",
+  "y": 1949,
+  "type": "Movie",
+  "q": "WebRip",
+  "a": "Hindi",
+  "v": 0,
+  "g": "Supernatural Drama",
+  "lang": [
+   "Hindi"
+  ],
+  "pin": false,
+  "p": "",
+  "src": "",
+  "d": "A haunting mansion, a dream lover — Kamal Amrohi's gothic.",
+  "createdAt": 1759983800000
+ },
+ {
+  "id": "pd-barsaat",
+  "t": "Barsaat",
+  "y": 1949,
+  "type": "Movie",
+  "q": "WebRip",
+  "a": "Hindi",
+  "v": 0,
+  "g": "Romance",
+  "lang": [
+   "Hindi"
+  ],
+  "pin": false,
+  "p": "",
+  "src": "",
+  "d": "Raj Kapoor's lush Kashmiri romance in the rain.",
+  "createdAt": 1759983500000
+ },
+ {
+  "id": "pd-andaz",
+  "t": "Andaz",
+  "y": 1949,
+  "type": "Movie",
+  "q": "WebRip",
+  "a": "Hindi",
+  "v": 0,
+  "g": "Romance Drama",
+  "lang": [
+   "Hindi"
+  ],
+  "pin": false,
+  "p": "",
+  "src": "",
+  "d": "Raj Kapoor, Dilip Kumar and Nargis in the classic love triangle.",
+  "createdAt": 1759983200000
+ },
+ {
+  "id": "pd-awara",
+  "t": "Awara",
+  "y": 1951,
+  "type": "Movie",
+  "q": "WebRip",
+  "a": "Hindi",
+  "v": 0,
+  "g": "Drama",
+  "lang": [
+   "Hindi"
+  ],
+  "pin": false,
+  "p": "",
+  "src": "",
+  "d": "Raj Kapoor's tramp on trial — 'Awaara Hoon'.",
+  "createdAt": 1759982900000
+ },
+ {
+  "id": "pd-aan",
+  "t": "Aan",
+  "y": 1952,
+  "type": "Movie",
+  "q": "WebRip",
+  "a": "Hindi",
+  "v": 0,
+  "g": "Adventure",
+  "lang": [
+   "Hindi"
+  ],
+  "pin": false,
+  "p": "",
+  "src": "",
+  "d": "India's first Technicolor spectacle — a prince's sword.",
+  "createdAt": 1759982600000
+ },
+ {
+  "id": "pd-baiju-bawra",
+  "t": "Baiju Bawra",
+  "y": 1952,
+  "type": "Movie",
+  "q": "WebRip",
+  "a": "Hindi",
+  "v": 0,
+  "g": "Musical Drama",
+  "lang": [
+   "Hindi"
+  ],
+  "pin": false,
+  "p": "",
+  "src": "",
+  "d": "A musician vows revenge with a song — Naushad's ragas.",
+  "createdAt": 1759982300000
+ },
+ {
+  "id": "pd-anarkali",
+  "t": "Anarkali",
+  "y": 1953,
+  "type": "Movie",
+  "q": "WebRip",
+  "a": "Hindi",
+  "v": 0,
+  "g": "Historical Romance",
+  "lang": [
+   "Hindi"
+  ],
+  "pin": false,
+  "p": "",
+  "src": "",
+  "d": "The courtesan who loved a prince, told early.",
+  "createdAt": 1759982000000
+ },
+ {
+  "id": "pd-do-bigha-zamin",
+  "t": "Do Bigha Zamin",
+  "y": 1953,
+  "type": "Movie",
+  "q": "WebRip",
+  "a": "Hindi",
+  "v": 0,
+  "g": "Drama",
+  "lang": [
+   "Hindi"
+  ],
+  "pin": false,
+  "p": "",
+  "src": "",
+  "d": "Bimal Roy's neorealist classic of land and rickshaw.",
+  "createdAt": 1759981700000
+ },
+ {
+  "id": "pd-taxi-driver",
+  "t": "Taxi Driver",
+  "y": 1954,
+  "type": "Movie",
+  "q": "WebRip",
+  "a": "Hindi",
+  "v": 0,
+  "g": "Drama",
+  "lang": [
+   "Hindi"
+  ],
+  "pin": false,
+  "p": "",
+  "src": "",
+  "d": "Dev Anand drives Bombay's nights.",
+  "createdAt": 1759981400000
+ },
+ {
+  "id": "pd-aar-paar",
+  "t": "Aar Paar",
+  "y": 1954,
+  "type": "Movie",
+  "q": "WebRip",
+  "a": "Hindi",
+  "v": 0,
+  "g": "Crime Comedy",
+  "lang": [
+   "Hindi"
+  ],
+  "pin": false,
+  "p": "",
+  "src": "",
+  "d": "Guru Dutt's smoky noir of a taxi driver in trouble.",
+  "createdAt": 1759981100000
+ },
+ {
+  "id": "pd-naagin",
+  "t": "Naagin",
+  "y": 1954,
+  "type": "Movie",
+  "q": "WebRip",
+  "a": "Hindi",
+  "v": 0,
+  "g": "Fantasy",
+  "lang": [
+   "Hindi"
+  ],
+  "pin": false,
+  "p": "",
+  "src": "",
+  "d": "The snake-woman vendetta that begot an Indian genre.",
+  "createdAt": 1759980800000
+ },
+ {
+  "id": "pd-devdas",
+  "t": "Devdas",
+  "y": 1955,
+  "type": "Movie",
+  "q": "WebRip",
+  "a": "Hindi",
+  "v": 0,
+  "g": "Romance Drama",
+  "lang": [
+   "Hindi"
+  ],
+  "pin": false,
+  "p": "",
+  "src": "",
+  "d": "Bimal Roy & Dilip Kumar's definitive Devdas.",
+  "createdAt": 1759980500000
+ },
+ {
+  "id": "pd-shree-420",
+  "t": "Shree 420",
+  "y": 1955,
+  "type": "Movie",
+  "q": "WebRip",
+  "a": "Hindi",
+  "v": 0,
+  "g": "Comedy Drama",
+  "lang": [
+   "Hindi"
+  ],
+  "pin": false,
+  "p": "",
+  "src": "",
+  "d": "Raj Kapoor's 'Mera Joota Hai Japani' everyman.",
+  "createdAt": 1759980200000
+ },
+ {
+  "id": "pd-naya-daur",
+  "t": "Naya Daur",
+  "y": 1957,
+  "type": "Movie",
+  "q": "WebRip",
+  "a": "Hindi",
+  "v": 0,
+  "g": "Drama",
+  "lang": [
+   "Hindi"
+  ],
+  "pin": false,
+  "p": "",
+  "src": "",
+  "d": "Man versus machine in Dilip Kumar's village classic.",
+  "createdAt": 1759979900000
+ },
+ {
+  "id": "pd-pyaasa",
+  "t": "Pyaasa",
+  "y": 1957,
+  "type": "Movie",
+  "q": "WebRip",
+  "a": "Hindi",
+  "v": 0,
+  "g": "Drama",
+  "lang": [
+   "Hindi"
+  ],
+  "pin": true,
+  "p": "",
+  "src": "",
+  "d": "Guru Dutt's poet starving for a hearing — evergreen melancholia.",
+  "createdAt": 1759979600000
+ },
+ {
+  "id": "pd-mother-india",
+  "t": "Mother India",
+  "y": 1957,
+  "type": "Movie",
+  "q": "WebRip",
+  "a": "Hindi",
+  "v": 0,
+  "g": "Epic Drama",
+  "lang": [
+   "Hindi"
+  ],
+  "pin": false,
+  "p": "",
+  "src": "",
+  "d": "Nargis as the indomitable mother of Indian cinema.",
+  "createdAt": 1759979300000
+ },
+ {
+  "id": "pd-madhumati",
+  "t": "Madhumati",
+  "y": 1958,
+  "type": "Movie",
+  "q": "WebRip",
+  "a": "Hindi",
+  "v": 0,
+  "g": "Romance Drama",
+  "lang": [
+   "Hindi"
+  ],
+  "pin": false,
+  "p": "",
+  "src": "",
+  "d": "Bimal Roy's reincarnation romance with haunting music.",
+  "createdAt": 1759979000000
+ },
+ {
+  "id": "pd-kaagaz-ke-phool",
+  "t": "Kaagaz Ke Phool",
+  "y": 1959,
+  "type": "Movie",
+  "q": "WebRip",
+  "a": "Hindi",
+  "v": 0,
+  "g": "Drama",
+  "lang": [
+   "Hindi"
+  ],
+  "pin": false,
+  "p": "",
+  "src": "",
+  "d": "Guru Dutt's director falls for his muse — a heartbreaking classic.",
+  "createdAt": 1759978700000
+ },
+ {
+  "id": "pd-sujata",
+  "t": "Sujata",
+  "y": 1959,
+  "type": "Movie",
+  "q": "WebRip",
+  "a": "Hindi",
+  "v": 0,
+  "g": "Social Drama",
+  "lang": [
+   "Hindi"
+  ],
+  "pin": false,
+  "p": "",
+  "src": "",
+  "d": "Bimal Roy's film on caste and an orphan 'untouchable' girl.",
+  "createdAt": 1759978400000
+ },
+ {
+  "id": "pd-barsaat-ki-raat",
+  "t": "Barsaat Ki Raat",
+  "y": 1960,
+  "type": "Movie",
+  "q": "WebRip",
+  "a": "Hindi",
+  "v": 0,
+  "g": "Romance Drama",
+  "lang": [
+   "Hindi"
+  ],
+  "pin": false,
+  "p": "",
+  "src": "",
+  "d": "A poet and a courtesan meet on a rainy night.",
+  "createdAt": 1759978100000
+ },
+ {
+  "id": "pd-parakh",
+  "t": "Parakh",
+  "y": 1960,
+  "type": "Movie",
+  "q": "WebRip",
+  "a": "Hindi",
+  "v": 0,
+  "g": "Drama",
+  "lang": [
+   "Hindi"
+  ],
+  "pin": false,
+  "p": "",
+  "src": "",
+  "d": "A schoolteacher uncovers a town's hypocrisy over a legacy.",
+  "createdAt": 1759977800000
+ },
+ {
+  "id": "pd-kohinoor",
+  "t": "Kohinoor",
+  "y": 1960,
+  "type": "Movie",
+  "q": "WebRip",
+  "a": "Hindi",
+  "v": 0,
+  "g": "Action",
+  "lang": [
+   "Hindi"
+  ],
+  "pin": false,
+  "p": "",
+  "src": "",
+  "d": "Dilip Kumar's swashbuckling 'Prince and Pauper' adventure.",
+  "createdAt": 1759977500000
+ },
+ {
+  "id": "pd-chaudhvin-ka-chand",
+  "t": "Chaudhvin Ka Chand",
+  "y": 1960,
+  "type": "Movie",
+  "q": "WebRip",
+  "a": "Hindi",
+  "v": 0,
+  "g": "Romance",
+  "lang": [
+   "Hindi"
+  ],
+  "pin": false,
+  "p": "",
+  "src": "",
+  "d": "Guru Dutt's qawwali-laden romance after the partitioner of the community.",
+  "createdAt": 1759977200000
+ },
+ {
+  "id": "pd-mughal-e-azam",
+  "t": "Mughal-e-Azam",
+  "y": 1960,
+  "type": "Movie",
+  "q": "WebRip",
+  "a": "Hindi",
+  "v": 0,
+  "g": "Historical Epic",
+  "lang": [
+   "Hindi"
+  ],
+  "pin": true,
+  "p": "",
+  "src": "",
+  "d": "K. Asif's grand tale of Salim and Anarkali — restored in gold.",
+  "createdAt": 1759976900000
+ },
+ {
+  "id": "pd-gunga-jumna",
+  "t": "Gunga Jumna",
+  "y": 1961,
+  "type": "Movie",
+  "q": "WebRip",
+  "a": "Hindi",
+  "v": 0,
+  "g": "Crime Drama",
+  "lang": [
+   "Hindi"
+  ],
+  "pin": false,
+  "p": "",
+  "src": "",
+  "d": "Dilip Kumar as a dacoit and his cop brother.",
+  "createdAt": 1759976600000
+ },
+ {
+  "id": "pd-junglee",
+  "t": "Junglee",
+  "y": 1961,
+  "type": "Movie",
+  "q": "WebRip",
+  "a": "Hindi",
+  "v": 0,
+  "g": "Romance Musical",
+  "lang": [
+   "Hindi"
+  ],
+  "pin": false,
+  "p": "",
+  "src": "",
+  "d": "Shammi Kapoor's 'yahoo' — hello Mr. Savage.",
+  "createdAt": 1759976300000
+ },
+ {
+  "id": "pd-hum-dono",
+  "t": "Hum Dono",
+  "y": 1961,
+  "type": "Movie",
+  "q": "WebRip",
+  "a": "Hindi",
+  "v": 0,
+  "g": "Drama",
+  "lang": [
+   "Hindi"
+  ],
+  "pin": false,
+  "p": "",
+  "src": "",
+  "d": "Dev Anand as a soldier and his double in a mistaken-identity war tale.",
+  "createdAt": 1759976000000
+ },
+ {
+  "id": "pd-kabuliwala",
+  "t": "Kabuliwala",
+  "y": 1961,
+  "type": "Movie",
+  "q": "WebRip",
+  "a": "Hindi",
+  "v": 0,
+  "g": "Drama",
+  "lang": [
+   "Hindi"
+  ],
+  "pin": false,
+  "p": "",
+  "src": "",
+  "d": "Tagore's fruit-seller and the child he loves like a daughter.",
+  "createdAt": 1759975700000
+ },
+ {
+  "id": "pd-sahib-bibi-aur-ghulam",
+  "t": "Sahib Bibi Aur Ghulam",
+  "y": 1962,
+  "type": "Movie",
+  "q": "WebRip",
+  "a": "Hindi",
+  "v": 0,
+  "g": "Drama",
+  "lang": [
+   "Hindi"
+  ],
+  "pin": false,
+  "p": "",
+  "src": "",
+  "d": "Guru Dutt's crumbling zamindar house through Meena Kumari's eyes.",
+  "createdAt": 1759975400000
+ },
+ {
+  "id": "pd-bees-saal-baad",
+  "t": "Bees Saal Baad",
+  "y": 1962,
+  "type": "Movie",
+  "q": "WebRip",
+  "a": "Hindi",
+  "v": 0,
+  "g": "Horror Mystery",
+  "lang": [
+   "Hindi"
+  ],
+  "pin": false,
+  "p": "",
+  "src": "",
+  "d": "A haunted mansion, an old curse and a haunting song.",
+  "createdAt": 1759975100000
+ },
+ {
+  "id": "pd-anpadh",
+  "t": "Anpadh",
+  "y": 1962,
+  "type": "Movie",
+  "q": "WebRip",
+  "a": "Hindi",
+  "v": 0,
+  "g": "Drama",
+  "lang": [
+   "Hindi"
+  ],
+  "pin": false,
+  "p": "",
+  "src": "",
+  "d": "Mala Sinha as an illiterate heiress caught in a marriage of pity.",
+  "createdAt": 1759974800000
+ },
+ {
+  "id": "pd-aarti",
+  "t": "Aarti",
+  "y": 1962,
+  "type": "Movie",
+  "q": "WebRip",
+  "a": "Hindi",
+  "v": 0,
+  "g": "Drama",
+  "lang": [
+   "Hindi"
+  ],
+  "pin": false,
+  "p": "",
+  "src": "",
+  "d": "Aarti's sacrifice — Meena Kumari's domestic tragedy.",
+  "createdAt": 1759974500000
+ },
+ {
+  "id": "pd-bandini",
+  "t": "Bandini",
+  "y": 1963,
+  "type": "Movie",
+  "q": "WebRip",
+  "a": "Hindi",
+  "v": 0,
+  "g": "Drama",
+  "lang": [
+   "Hindi"
+  ],
+  "pin": false,
+  "p": "",
+  "src": "",
+  "d": "Bimal Roy's final classic — a woman's crime and atonement.",
+  "createdAt": 1759974200000
+ },
+ {
+  "id": "pd-dosti",
+  "t": "Dosti",
+  "y": 1964,
+  "type": "Movie",
+  "q": "WebRip",
+  "a": "Hindi",
+  "v": 0,
+  "g": "Musical Drama",
+  "lang": [
+   "Hindi"
+  ],
+  "pin": false,
+  "p": "",
+  "src": "",
+  "d": "An unforgettable friendship — blind boy and lame boy.",
+  "createdAt": 1759973900000
+ },
+ {
+  "id": "pd-woh-kaun-thi",
+  "t": "Woh Kaun Thi?",
+  "y": 1964,
+  "type": "Movie",
+  "q": "WebRip",
+  "a": "Hindi",
+  "v": 0,
+  "g": "Thriller",
+  "lang": [
+   "Hindi"
+  ],
+  "pin": false,
+  "p": "",
+  "src": "",
+  "d": "Manoj Kumar haunted by a woman nobody else sees.",
+  "createdAt": 1759973600000
+ },
+ {
+  "id": "pd-sangam",
+  "t": "Sangam",
+  "y": 1964,
+  "type": "Movie",
+  "q": "WebRip",
+  "a": "Hindi",
+  "v": 0,
+  "g": "Romance Drama",
+  "lang": [
+   "Hindi"
+  ],
+  "pin": false,
+  "p": "",
+  "src": "",
+  "d": "Raj Kapoor's technicolour love triangle across Europe.",
+  "createdAt": 1759973300000
+ },
+ {
+  "id": "pd-gumnaam",
+  "t": "Gumnaam",
+  "y": 1965,
+  "type": "Movie",
+  "q": "WebRip",
+  "a": "Hindi",
+  "v": 0,
+  "g": "Mystery Thriller",
+  "lang": [
+   "Hindi"
+  ],
+  "pin": false,
+  "p": "",
+  "src": "",
+  "d": "Boatload of heirs abducted by a masked man — dhuan uthta hai.",
+  "createdAt": 1759973000000
+ },
+ {
+  "id": "pd-waqt",
+  "t": "Waqt",
+  "y": 1965,
+  "type": "Movie",
+  "q": "WebRip",
+  "a": "Hindi",
+  "v": 0,
+  "g": "Drama",
+  "lang": [
+   "Hindi"
+  ],
+  "pin": false,
+  "p": "",
+  "src": "",
+  "d": "Yash Chopra's 'Waqt' — a family split by a quake and re-united.",
+  "createdAt": 1759972700000
+ },
+ {
+  "id": "pd-guide",
+  "t": "Guide",
+  "y": 1965,
+  "type": "Movie",
+  "q": "WebRip",
+  "a": "Hindi",
+  "v": 0,
+  "g": "Drama",
+  "lang": [
+   "Hindi"
+  ],
+  "pin": false,
+  "p": "",
+  "src": "",
+  "d": "Vijay Anand's Raju guide — from fraud to sainthood, a masterpiece.",
+  "createdAt": 1759972400000
+ },
+ {
+  "id": "pd-heer-ranjha",
+  "t": "Heer Ranjha",
+  "y": 1932,
+  "type": "Movie",
+  "q": "WebRip",
+  "a": "Punjabi",
+  "v": 0,
+  "g": "Punjabi Romance",
+  "lang": [
+   "Punjabi"
+  ],
+  "pin": false,
+  "p": "",
+  "src": "",
+  "d": "The first Punjabi film — the eternal tale of Heer and Ranjha.",
+  "createdAt": 1759972100000
+ },
+ {
+  "id": "pd-gul-e-bakawali",
+  "t": "Gul-E-Bakawali",
+  "y": 1939,
+  "type": "Movie",
+  "q": "WebRip",
+  "a": "Punjabi",
+  "v": 0,
+  "g": "Punjabi Fantasy",
+  "lang": [
+   "Punjabi"
+  ],
+  "pin": false,
+  "p": "",
+  "src": "",
+  "d": "A Punjabi fairy-tale of the flower princess.",
+  "createdAt": 1759971800000
+ },
+ {
+  "id": "pd-yamla-jat",
+  "t": "Yamla Jat",
+  "y": 1940,
+  "type": "Movie",
+  "q": "WebRip",
+  "a": "Punjabi",
+  "v": 0,
+  "g": "Punjabi Action",
+  "lang": [
+   "Punjabi"
+  ],
+  "pin": false,
+  "p": "",
+  "src": "",
+  "d": "A rustic Jat fights for the village — beloved folk classic.",
+  "createdAt": 1759971500000
+ },
+ {
+  "id": "pd-chirakumar-sabha",
+  "t": "Chirakumar Sabha",
+  "y": 1932,
+  "type": "Movie",
+  "q": "WebRip",
+  "a": "Bengali",
+  "v": 0,
+  "g": "Bengali Drama",
+  "lang": [
+   "Bangla"
+  ],
+  "pin": false,
+  "p": "",
+  "src": "",
+  "d": "Tagore's 'Bachelor's Club' — early Bengali comedy.",
+  "createdAt": 1759971200000
+ },
+ {
+  "id": "pd-chokher-bali",
+  "t": "Chokher Bali",
+  "y": 1938,
+  "type": "Movie",
+  "q": "WebRip",
+  "a": "Bengali",
+  "v": 0,
+  "g": "Bengali Drama",
+  "lang": [
+   "Bangla"
+  ],
+  "pin": false,
+  "p": "",
+  "src": "",
+  "d": "Tagore's Binodini — the first Bengali talkie version of the novel.",
+  "createdAt": 1759970900000
+ },
+ {
+  "id": "pd-gora",
+  "t": "Gora",
+  "y": 1938,
+  "type": "Movie",
+  "q": "WebRip",
+  "a": "Bengali",
+  "v": 0,
+  "g": "Bengali Drama",
+  "lang": [
+   "Bangla"
+  ],
+  "pin": false,
+  "p": "/uploads/posters/pd-gora.jpg",
+  "src": "",
+  "d": "Tagore's Gora and the identity of colonial Bengal.",
+  "createdAt": 1759970600000
+ },
+ {
+  "id": "pd-bilwamangal",
+  "t": "Bilwamangal",
+  "y": 1933,
+  "type": "Movie",
+  "q": "WebRip",
+  "a": "Bengali",
+  "v": 0,
+  "g": "Bengali Devotional Drama",
+  "lang": [
+   "Bangla"
+  ],
+  "pin": false,
+  "p": "/uploads/posters/pd-bilwamangal.jpg",
+  "src": "",
+  "d": "The blind poet-saint's devotion — an early Bengali classic.",
+  "createdAt": 1759970300000
+ }
+]

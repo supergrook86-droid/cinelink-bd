@@ -100,6 +100,24 @@ if (!Object.keys(store.items).length) {
   console.log('[seed] 4 sample movies added (poster art loads from the network).');
 }
 
+/* merge public-domain catalog (data/catalog.json) — added on every boot, so a
+   fresh deploy always carries the classic titles; admin-added movies win. */
+const CATALOG_FILE = path.join(DATA_DIR, 'catalog.json');
+(function mergeCatalog() {
+  const list = readJson(CATALOG_FILE, []);
+  if (!Array.isArray(list) || !list.length) { console.log('[catalog] none found — skipping'); return; }
+  let added = 0, skipped = 0;
+  list.forEach(it => {
+    if (!it || !it.id || !it.t) return;
+    if (store.items[it.id]) { skipped++; return; }
+    store.items[it.id] = Object.assign({}, it, { src: it.src || '', dl: it.dl || '', v: it.v || 0 });
+    if (!store.items[it.id].createdAt) store.items[it.id].createdAt = 1759000000000;
+    added++;
+  });
+  if (added) { saveMovies(); console.log('[catalog] merged ' + added + ' public-domain titles (' + skipped + ' already present)'); }
+  else console.log('[catalog] all ' + skipped + ' titles already present');
+})();
+
 /* --------------------------- app setup ---------------------------- */
 const app = express();
 app.use(session({
