@@ -47,8 +47,7 @@
   .nav-links a{padding:7px 12px;border-radius:8px;transition:.18s}
   .nav-links a:hover{color:var(--ink);background:rgba(255,255,255,.06)}
   .nav-links a.on{color:var(--ink);background:var(--accent-soft)}
-  .nav-links .admin-cta{color:var(--gold);border:1px solid rgba(255,176,32,.35)}
-  .nav-links .admin-cta:hover{background:rgba(255,176,32,.12)}
+  .nav-links .admin-cta{display:none}
   .search{margin-left:auto;display:flex;align-items:center;gap:8px;background:var(--bg2);border:1px solid var(--line);border-radius:99px;padding:7px 14px;min-width:min(320px,100%)}
   .search svg{width:15px;height:15px;stroke:var(--dim);flex:none}
   .search input{background:none;border:0;outline:0;color:var(--ink);font-size:13.5px;width:100%;font-family:inherit}
@@ -187,7 +186,7 @@
       <a href="#latest" data-navtag="Series">Series</a>
       <a href="#latest" data-navtag="Bangla">Bangla</a>
       <a href="#latest" data-navtag="Hindi">Hindi</a>
-      <a href="/admin" class="admin-cta">⚙ Admin</a>
+      <a href="/admin" class="admin-cta" hidden>⚙ Admin</a>
     </div>
     <div class="search">
       <svg viewBox="0 0 24 24" fill="none" stroke-width="2.4"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.3-4.3"/></svg>
